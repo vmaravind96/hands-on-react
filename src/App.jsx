@@ -19,7 +19,7 @@ function App() {
                     display: "flex",
                     gap: "1rem"
                   }}>
-                    <img src={`images/${memberInfo.slug}.svg`} alt={memberInfo.name}/>
+                    <img src={`images/${memberInfo.slug}_tn.svg`} alt={memberInfo.name}/>
                     <hgroup>
                       <h1>{memberInfo.name}</h1>
                       <p>{memberInfo.bio}</p>
